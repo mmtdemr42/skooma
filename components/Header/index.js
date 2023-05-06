@@ -8,6 +8,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Toolbar from "@mui/material/Toolbar";
 import * as React from "react";
 import styles from "./styles.module.css";
+import HeaderSocial from "../HeaderSocial";
 
 export default function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -78,13 +79,13 @@ export default function Header() {
       </MenuItem>
 
       <MenuItem>
-      <Button className={styles.ButtonDealer} href="/">
-              DEALER
-            </Button>
+        <Button className={styles.ButtonDealer} href="/">
+          DEALER
+        </Button>
 
-            <Button className={styles.ButtonConnect} href="/">
-              Connect
-            </Button>
+        <Button className={styles.ButtonConnect} href="/">
+          Connect
+        </Button>
       </MenuItem>
     </Menu>
   );
@@ -116,8 +117,6 @@ export default function Header() {
             </Button>
           </Box>
 
-        
-
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <Button className={styles.ButtonDealer} href="/">
               DEALER
@@ -129,7 +128,7 @@ export default function Header() {
           </Box>
 
           {/* Mobil Menü */}
-          <Box sx={{ display: { xs: "flex", md: "none" }}}>
+          <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
               aria-label="show more"
@@ -144,8 +143,9 @@ export default function Header() {
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
-        <p>Deneme</p>
-
+      <div className="text-end">
+        <HeaderSocial />
+      </div>
     </Box>
   );
 }

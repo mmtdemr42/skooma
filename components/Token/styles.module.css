@@ -1,0 +1,44 @@
+.TokenText {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #1e1e1e;
+}
+
+.BuyNowButton {
+  background: #508747;
+  border-radius: 4px;
+  width: 104px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.BuyNowButton:hover {
+  background-color: #345c2e;
+}
+
+.TokenHeader {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 200%;
+  /* or 32px */
+
+  color: #000000;
+}
+
+.TokenContent {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 200%;
+  /* or 32px */
+
+  color: #000000;
+}
