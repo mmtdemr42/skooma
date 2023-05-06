@@ -1,0 +1,66 @@
+.ButtonHeader {
+  background-color: #000000;
+  border-radius: 4px;
+  height: 36px;
+
+  margin-left: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  /* identical to box height, or 257% */
+
+
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+
+  /* shades/white */
+
+  color: #ffffff;
+}
+
+.ButtonDealer {
+  background: #4d0e2c;
+  border-radius: 4px;
+  width: 98px;
+  height: 36px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  /* identical to box height, or 257% */
+
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.ButtonConnect {
+  background: #508747;
+  border-radius: 4px;
+  width: 114px;
+  height: 36px;
+  margin-left: 8px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  /* identical to box height, or 257% */
+
+
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+
+  /* shades/white */
+
+  color: #ffffff;
+}
