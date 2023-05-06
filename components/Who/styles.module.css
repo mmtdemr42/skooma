@@ -1,3 +1,9 @@
+.MainDiv {
+  background-color: #7a1d4a;
+  margin-top: 40px;
+  height: 460px;
+}
+
 .Header {
   font-family: "JetBrains Mono";
   font-style: normal;
@@ -9,4 +15,49 @@
 
   text-align: center;
   background-color: white;
+}
+
+.TokenText {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+
+.Sise {
+  position: absolute;
+  overflow: visible;
+  right: 25px;
+  margin-top: -260px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Sise {
+    margin-top: 0px;
+  }
+  .Image {
+    height: 500px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .TokenText {
+    font-size: 12px;
+  }
+
+  .Sise {
+    position: relative;
+    right: 0px;
+    margin-top: -100px;
+    text-align: end;
+  }
+
+  .Image {
+    height: 200px;
+    width: auto;
+  }
 }
